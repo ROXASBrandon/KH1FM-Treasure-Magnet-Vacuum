@@ -1,5 +1,9 @@
 # Treasure Magnet Vacuum
 
+![Treasure Magnet Vacuum banner](images/banner.png)
+
+[Download Treasure Magnet Vacuum (500x Range) on Nexus Mods](https://www.nexusmods.com/kingdomheartsfinalmix/mods/257)
+
 **Version 1.0.0 — ROXASBrandon**
 
 Turn Treasure Magnet into a powerful vacuum for dropped items, HP/MP orbs, and
