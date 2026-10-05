@@ -1,0 +1,11 @@
+title: Treasure Magnet Vacuum
+originalAuthor: ROXASBrandon
+description: >
+  Extends Treasure Magnet pickup radius by 500x for items and HP/MP/munny orbs. No unlock or AP changes.
+  Steam Global 1.0.0.2 and LuaBackend required. Version 1.0.0.
+game: kh1
+assets:
+  - name: scripts/kh1_treasure_magnet_vacuum.lua
+    method: copy
+    source:
+      - name: scripts/kh1_treasure_magnet_vacuum.lua
