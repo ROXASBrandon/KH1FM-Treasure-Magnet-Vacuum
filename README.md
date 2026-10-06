@@ -78,6 +78,7 @@ extraction.
 
 See `CREDITS.md` for reference credits and `CHANGELOG.md` for release notes.
 
-## Companion repository
+## My other mods
 
-https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Starter
+- [Keyblade Transmog](https://github.com/ROXASBrandon/KH1FM-Keyblade-Transmog) — press Q to cycle Keyblade looks and hit sounds while keeping your equipped Keyblade's stats.
+- [Treasure Magnet Starter](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Starter) — early unlock, zero AP.
