@@ -2,7 +2,7 @@
 
 ![Treasure Magnet Vacuum banner](images/banner.png)
 
-[Download Treasure Magnet Vacuum (500x Range) on Nexus Mods](https://www.nexusmods.com/kingdomheartsfinalmix/mods/257)
+[Download Treasure Magnet Vacuum (500x Range) on Nexus Mods](https://www.nexusmods.com/kingdomheartsfinalmix/mods/257) · [OpenKH import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/raw/refs/heads/main/downloads/Treasure-Magnet-Vacuum-v1.0.0.zip)
 
 **Version 1.0.0 — ROXASBrandon**
 
@@ -42,12 +42,19 @@ Choose **one** method:
 1. **OpenKH / GitHub:** select Kingdom Hearts 1 in Mods Manager, open **Mods >
    Install new mods**, and enter `ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum` in the GitHub field.
    Click **Install**, enable the mod, then **Mod Loader > Build and Run**.
-   You can also import the release ZIP or standalone Lua through the archive
-   option instead. For updates, use **Settings > Check Mods for Updates** and
-   rebuild your KH1 mod list.
-2. **Manual LuaBackend:** copy the script from this archive's `scripts` folder to
+   For updates, use **Settings > Check Mods for Updates** and rebuild after closing KH1.
+2. **Manual LuaBackend:** copy the script from the ZIP's `scripts` folder to
    `Documents\My Games\KINGDOM HEARTS HD 1.5+2.5 ReMIX\scripts\kh1`.
    Your LuaBackend configuration must load that folder. Restart KH1.
+3. **OpenKH / downloaded ZIP:** [download the ready-to-import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/raw/refs/heads/main/downloads/Treasure-Magnet-Vacuum-v1.0.0.zip).
+   Select Kingdom Hearts 1, open **Mods > Install new mods** (or the **+** button),
+   click **Select and install Mod Archive or Lua Script**, and select the downloaded
+   ZIP **without extracting it**. Enable the imported mod, then **Mod Loader >
+   Build and Run**. The ZIP contains `mod.yml` at its root and all required files.
+   For later ZIP updates, close KH1, remove the previous imported copy from Mods
+   Manager, import the new ZIP, and rebuild. Keep only one copy of this mod enabled.
+
+[OpenKH's official archive installation guide](https://github.com/OpenKH/OpenKh/blob/master/docs/tool/GUI.ModsManager/index.md#installing-mods).
 
 Press **F2** for LuaBackend confirmation messages. Install a given script only
 once; do not use the OpenKH and manual methods simultaneously.
