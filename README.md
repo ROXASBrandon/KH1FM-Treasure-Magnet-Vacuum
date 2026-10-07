@@ -87,5 +87,6 @@ See `CREDITS.md` for reference credits and `CHANGELOG.md` for release notes.
 
 ## My other mods
 
+- [Keyblade of Heart](https://github.com/ROXASBrandon/KH1FM-Keyblade-of-Heart) — Riku's blade, dark blue trail, and swing sounds over Kingdom Key.
 - [Keyblade Transmog](https://github.com/ROXASBrandon/KH1FM-Keyblade-Transmog) — press Q to cycle Keyblade looks and hit sounds while keeping your equipped Keyblade's stats.
 - [Treasure Magnet Starter](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Starter) — early unlock, zero AP.
