@@ -2,7 +2,7 @@
 
 ![Treasure Magnet Vacuum banner](images/banner.png)
 
-[Download Treasure Magnet Vacuum (500x Range) on Nexus Mods](https://www.nexusmods.com/kingdomheartsfinalmix/mods/257) · [OpenKH import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/raw/refs/heads/main/downloads/Treasure-Magnet-Vacuum-v1.0.0.zip)
+[Download Treasure Magnet Vacuum (500x Range) on Nexus Mods](https://www.nexusmods.com/kingdomheartsfinalmix/mods/257) · [OpenKH import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/releases/download/v1.0.0/Treasure-Magnet-Vacuum-v1.0.0.zip) · [GitHub Release](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/releases/tag/v1.0.0)
 
 **Version 1.0.0 — ROXASBrandon**
 
@@ -46,7 +46,7 @@ Choose **one** method:
 2. **Manual LuaBackend:** copy the script from the ZIP's `scripts` folder to
    `Documents\My Games\KINGDOM HEARTS HD 1.5+2.5 ReMIX\scripts\kh1`.
    Your LuaBackend configuration must load that folder. Restart KH1.
-3. **OpenKH / downloaded ZIP:** [download the ready-to-import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/raw/refs/heads/main/downloads/Treasure-Magnet-Vacuum-v1.0.0.zip).
+3. **OpenKH / downloaded ZIP:** [download the ready-to-import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/releases/download/v1.0.0/Treasure-Magnet-Vacuum-v1.0.0.zip).
    Select Kingdom Hearts 1, open **Mods > Install new mods** (or the **+** button),
    click **Select and install Mod Archive or Lua Script**, and select the downloaded
    ZIP **without extracting it**. Enable the imported mod, then **Mod Loader >
