@@ -35,35 +35,35 @@ radius even without Treasure Magnet equipped.
   The script checks the executable and refuses unsupported versions.
 - No extra Lua library or companion script is required.
 
-## Installation
+## Installation methods
 
-Choose **one** method:
+Choose **one** method below. Close Kingdom Hearts normally before installing or updating, and keep only one copy of this mod enabled.
 
-1. **OpenKH / GitHub:** select Kingdom Hearts 1 in Mods Manager, open **Mods >
-   Install new mods**, and enter `ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum` in the GitHub field.
-   Click **Install**, enable the mod, then **Mod Loader > Build and Run**.
-   For updates, use **Settings > Check Mods for Updates** and rebuild after closing KH1.
-2. **Manual LuaBackend:** copy the script from the ZIP's `scripts` folder to
-   `Documents\My Games\KINGDOM HEARTS HD 1.5+2.5 ReMIX\scripts\kh1`.
-   Your LuaBackend configuration must load that folder. Restart KH1.
-3. **OpenKH / downloaded ZIP:** [download the ready-to-import ZIP](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/releases/download/v1.0.0/Treasure-Magnet-Vacuum-v1.0.0.zip).
-   Select Kingdom Hearts 1, open **Mods > Install new mods** (or the **+** button),
-   click **Select and install Mod Archive or Lua Script**, and select the downloaded
-   ZIP **without extracting it**. Enable the imported mod, then **Mod Loader >
-   Build and Run**. The ZIP contains `mod.yml` at its root and all required files.
-   For later ZIP updates, close KH1, remove the previous imported copy from Mods
-   Manager, import the new ZIP, and rebuild. Keep only one copy of this mod enabled.
+### OpenKH Mods Manager — GitHub
 
-[OpenKH's official archive installation guide](https://github.com/OpenKH/OpenKh/blob/master/docs/tool/GUI.ModsManager/index.md#installing-mods).
+1. Open **OpenKH Mods Manager** and select **Kingdom Hearts 1**.
+2. Open **Mods > Install new mods** or click **+**.
+3. Enter `ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum` in the GitHub field.
+4. Click **Install**, then enable **Treasure Magnet Vacuum**.
+5. Click **Mod Loader > Build and Run**.
 
-Press **F2** for LuaBackend confirmation messages. Install a given script only
-once; do not use the OpenKH and manual methods simultaneously.
+### OpenKH Mods Manager — downloaded ZIP
 
-If upgrading from the earlier combined script, remove/disable
-`kh1_early_treasure_magnet.lua` first. These two standalone mods can be used
-individually or together. Do not also enable another mod editing the same
-Treasure Magnet behavior; changed signatures can make the patch skip.
+1. Download the mod ZIP from the **Files** tab on its Nexus Mods page or from [GitHub Releases](https://github.com/ROXASBrandon/KH1FM-Treasure-Magnet-Vacuum/releases/latest).
+2. Open **OpenKH Mods Manager** and select **Kingdom Hearts 1**.
+3. Open **Mods > Install new mods** or click **+**.
+4. Choose **Select and install Mod Archive or Lua Script**, then select the downloaded ZIP **without extracting it**.
+5. Enable **Treasure Magnet Vacuum**, then click **Mod Loader > Build and Run**.
 
+Own and equip **Treasure Magnet** to use the expanded pickup range. Press **F2** for LuaBackend confirmation messages.
+
+### Updating
+
+For a GitHub installation, close the game, use **Settings > Check Mods for Updates**, then rebuild and restart. For a ZIP installation, close the game, remove the previous imported copy, import the new ZIP, and rebuild.
+
+If upgrading from the earlier combined script, remove or disable `kh1_early_treasure_magnet.lua` first. Starter and Vacuum can be used independently or together. Do not also enable another mod editing the same Treasure Magnet behavior; changed signatures can make the patch skip.
+
+[OpenKH installation guide](https://github.com/OpenKH/OpenKh/blob/master/docs/tool/GUI.ModsManager/index.md#installing-mods).
 ## Confirmation and removal
 
 F2 should show **VACUUM active for items AND HP/MP/munny orbs**. A signature
